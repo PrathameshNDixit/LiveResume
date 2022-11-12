@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+p {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+h3 {
+    font-weight: normal;
+    color: #888;
+    font-size: 0.9rem;
+    margin-block:10px ;
+}
+
+h2 {
+
+    font-weight: normal;
+    color: #888;
+
+}
+
+.container {
+    margin-inline: auto;
+    display: flex;
+    width: 70%;
+    gap: 20px;
+    margin-block: 20px;
+}
+
+.left-col {
+    width: 30%;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 4px 4px 4px #ccc;
+}
+
+.right-col {
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    align-content: stretch;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.img-box {
+    position: relative;
+}
+
+.img-box .username {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+ul {
+    list-style: none;
+    margin-block: 10px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+i {
+    color: teal;
+}
+
+.progress-bar {
+    background-color: #ccc;
+    border-radius: 20px;
+    margin-block: 8px;
+}
+
+.progress {
+    color: white;
+    background-color: teal;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 0.5rem;
+    padding-block:2px
+}
+.subtext{
+    color: #212121;
+    margin-block: 10px;
+}
+.left-desc,.card-content{
+    margin: 20px;
+}
+.username{
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #eee;
+}
+hr{
+    border: 0.5px solid #eee;
+}
+.skills{
+    margin-block: 10px;
+}
+ul>li{
+    margin-block: 5px;
+}
+.languages{
+    margin-block:10px;
+}
+.contact p{
+    padding-block: 5px;
+}
+
+.icon-text p{
+    color: teal;
+}
+.batch{
+    background-color: teal;
+    color: white;
+    border-radius: 3px;
+    font-size: small;
+    padding: 3px;
+}
+.proj-li{
+    font-size: 0.7rem;
+    list-style: circle;
+    list-style-position: inside;
+    color: teal;
+}
+.proj-li>p{
+    display: inline;
+}
+.edu{
+    display: block;
+    color: rgb(4, 75, 75);
+}
